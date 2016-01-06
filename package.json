@@ -1,0 +1,26 @@
+{
+  "name": "nefit-easy-core",
+  "version": "0.0.0",
+  "description": "Nefit Easy™ core library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertklep/nefit-easy-core.git"
+  },
+  "author": "Robert Klep <robert@klep.name>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robertklep/nefit-easy-core/issues"
+  },
+  "homepage": "https://github.com/robertklep/nefit-easy-core#readme",
+  "dependencies": {
+    "bluebird": "^3.1.1",
+    "debug": "^2.2.0",
+    "http-string-parser": "0.0.5",
+    "node-xmpp-client": "^3.0.0",
+    "promise-queue": "^2.2.2"
+  }
+}
