@@ -1,4 +1,4 @@
-## Nefit Easy™ core
+# Nefit Easy™ core
 
 Core functionality to implementation communications with Nefit/Bosch backend.
 
