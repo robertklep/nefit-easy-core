@@ -55,11 +55,14 @@ $ env DEBUG=nefit-easy-core node your-app.js
 ```
 const NefitEasyClient = require('nefit-easy-core');
 const client          = NefitEasyClient({
-  serialNumber : NEFIT_SERIAL_NUMBER,
-  accessKey    : NEFIT_ACCESS_KEY,
-  password     : NEFIT_PASSWORD,
+  serialNumber   : NEFIT_SERIAL_NUMBER,
+  accessKey      : NEFIT_ACCESS_KEY,
+  password       : NEFIT_PASSWORD,
+[ requestTimeout : Number ]
 });
 ```
+
+Default for `requestTimeout` is 30 seconds.
 
 #### Reading data
 
