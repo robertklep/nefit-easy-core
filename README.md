@@ -53,16 +53,17 @@ $ env DEBUG=nefit-easy-core node your-app.js
 #### Constructor
 
 ```
-const NefitEasyClient = require('nefit-easy-core');
-const client          = NefitEasyClient({
+const Client = require('nefit-easy-core');
+const client = Client({
   serialNumber   : NEFIT_SERIAL_NUMBER,
   accessKey      : NEFIT_ACCESS_KEY,
   password       : NEFIT_PASSWORD,
-[ requestTimeout : Number ]
+[ retryTimeout   : Number ]
+[ maxRetries     : Number ]
 });
 ```
 
-Default for `requestTimeout` is 30 seconds.
+A request is retried a few times (because the backend can only handle one request at a time, requests may get dropped when more than one client is active). The default is to retry every 2000 milliseconds (`retryTimeout`) for a maximum of 15 times (`maxRetries`).
 
 #### Reading data
 
