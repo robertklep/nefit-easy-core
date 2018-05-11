@@ -17,10 +17,10 @@
   },
   "homepage": "https://github.com/robertklep/nefit-easy-core#readme",
   "dependencies": {
-    "bluebird": "^3.4.6",
-    "debug": "^2.2.0",
+    "bluebird": "^3.5.1",
+    "debug": "^2.6.9",
     "http-string-parser": "0.0.5",
-    "node-xmpp-client": "^3.0.4",
-    "promise-queue": "^2.2.3"
+    "node-xmpp-client": "^3.2.0",
+    "promise-queue": "^2.2.5"
   }
 }
