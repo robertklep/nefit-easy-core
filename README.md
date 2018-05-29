@@ -18,7 +18,7 @@ The Easy can be controlled through apps for Android and iOS, which communicate w
 
 ### Installation
 
-_This library requires Node.js 4.0.0 or later!_
+_This library requires Node.js 6.0.0 or later!_
 
 #### Install it as a Node module
 
@@ -42,7 +42,7 @@ The implementation of this library is based on reverse-engineering the communica
 
 ### General information
 
-All (asynchronous) methods return a ([bluebird](http://bluebirdjs.com/)) promise that resolves to a plain object.
+All (asynchronous) methods return a promise that resolves to a plain object.
 
 `nefit-easy-core` uses [`debug`](https://github.com/visionmedia/debug) to provide some debug logging:
 
