@@ -21,6 +21,8 @@
     "debug": "^2.6.9",
     "http-string-parser": "0.0.5",
     "node-xmpp-client": "^3.2.0",
-    "promise-queue": "^2.2.5"
+    "promise-queue": "^2.2.5",
+    "sasl-scram-sha-1": "^1.2.1",
+    "saslmechanisms": "^0.1.1"
   }
 }
