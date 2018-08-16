@@ -21,7 +21,7 @@
   "homepage": "https://github.com/robertklep/nefit-easy-core#readme",
   "dependencies": {
     "bluebird": "^3.5.1",
-    "debug": "^2.6.9",
+    "debug": "^3.1.0",
     "http-string-parser": "0.0.5",
     "node-xmpp-client": "^3.2.0",
     "promise-queue": "^2.2.5",
