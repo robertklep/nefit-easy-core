@@ -16,6 +16,8 @@ The Nefit Easy™ smart thermostat is sold in The Netherlands by [Nefit](http://
 
 The Easy can be controlled through apps for Android and iOS, which communicate with a Bosch-hosted backend using the [XMPP](https://en.wikipedia.org/wiki/XMPP) protocol. This library aims to implement the communication protocol used between the apps and the backend.
 
+Devices related to the Nefit Easy, like the Worcester Wave, the Junkers Control, the Buderus Logamatic TC100 and the Bosch Greenstar CT100, are _probably_ also supported.
+
 ### Installation
 
 _This library requires Node.js 4.0.0 or later!_
