@@ -8,12 +8,12 @@ const client = NefitEasy({
 });
 
 // Connect client and retrieve status and pressure.
-client.connect().then( () => {
+client.connect().then(() => {
   return client.get('/ecus/rrc/uiStatus');
-}).then((response) => {
+}).then(response => {
   console.log('%j', response);
-}).catch((e) => {
-  console.error('error', e)
+}).catch(e => {
+  console.error(e.stack || e);
 }).finally(() => {
   client.end();
 });

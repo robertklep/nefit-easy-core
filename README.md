@@ -20,7 +20,7 @@ Devices related to the Nefit Easy, like the Worcester Wave, the Junkers Control,
 
 ### Installation
 
-_This library requires Node.js 6.0.0 or later!_
+This library requires Node.js 4.0.0 or later.
 
 #### Install it as a Node module
 
