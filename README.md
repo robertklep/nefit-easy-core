@@ -36,6 +36,13 @@ $ cd nefit-easy-core
 $ npm install
 ```
 
+### Other/related projects
+
+* [`nefit-easy-http-server`](https://github.com/robertklep/nefit-easy-http-server): an HTTP-to-XMPP bridge that allow projects that can't implement this library directly (for instance, if they aren't written in Javascript) to communicate, using an HTTP-based interface, with the Nefit Easy
+* [`nefit-easy-cli`](https://github.com/robertklep/nefit-easy-cli): a command line interface tool to communicate with the Nefit Easy
+* [`bosch-xmpp`](https://github.com/robertklep/bosch-xmpp): a similar library that can be used to communicate with other Bosch devices (it supports the Nefit Easy, but also IVT, Junkers Bosch, Buderus and probably any Bosch EasyRemote-compatible controller)
+* [`node-red-contrib-nefit-easy2`](https://flows.nodered.org/node/node-red-contrib-nefit-easy2): a Node RED node to interact with the Nefit Easy (fork of `node-red-contrib-nefit-easy`, which doesn't work anymore and its author has abandoned the project)
+
 ### Disclaimer
 
 The implementation of this library is based on reverse-engineering the communications between the apps and the backend, plus various other bits and pieces of information. It is _not_ based on any official information given out by Nefit/Bosch, and therefore there are no guarantees whatsoever regarding the safety of your devices and/or their settings, or the accuracy of the information provided.
