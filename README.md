@@ -80,7 +80,7 @@ A request is retried a few times (because the backend can only handle one reques
 
 This allows retrieving specific URI's from the backend.
 
-A non-exhaustive list of URI's can be found [here](https://github.com/robertklep/nefit-easy-core/wiki/List-of-endpoints).
+A non-exhaustive list of URI's can be found [here](https://github.com/robertklep/nefit-easy-core/wiki/List-of-endpoints). And @marcelrv has done a great job of documenting a lot of endpoints, the results of which can be found [here](https://github.com/marcelrv/nefit_easy_protocol).
 
 #### Writing data
 
