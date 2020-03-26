@@ -23,6 +23,7 @@
     "bluebird": "^3.5.1",
     "debug": "^3.1.0",
     "http-string-parser": "0.0.5",
+    "minimist": "^1.2.5",
     "node-xmpp-client": "^3.2.0",
     "promise-queue": "^2.2.5",
     "sasl-scram-sha-1": "^1.2.1",
