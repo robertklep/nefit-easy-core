@@ -1,6 +1,6 @@
 {
   "name": "nefit-easy-core",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "Nefit Easy™ core library",
   "main": "index.js",
   "scripts": {
